@@ -83,7 +83,7 @@ body{
     margin-right: 15px;
 }
 .sideBar h1{
-    color:#779BE7;
+    color:#2F4858;
     float: right;
     padding-right: 20px;
 }
@@ -175,12 +175,14 @@ body{
 #contact-info-div{
     padding: 15px;
 }
-#contact-info-div ul{
+#contact-info-div div{
     display: flex;
     justify-content: space-between;
 }
-#contact-info-div ul li{
+#contact-info-div div a{
     margin: 20px;
+    color: #2F4858;
     border-bottom: #2F4858 solid;
     display: inline;
+    text-decoration: none;
 }
